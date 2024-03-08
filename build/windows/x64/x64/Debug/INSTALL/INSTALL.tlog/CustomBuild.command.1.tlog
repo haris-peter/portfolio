@@ -1,0 +1,10 @@
+^C:\USERS\HARIS\DOCUMENTS\HARIS PROFESSIONAL DOCS\PORTFOLIO\MY_FLUTTER_PORTFOLIO\BUILD\WINDOWS\X64\CMAKEFILES\A189EB788B002B1619DF773163F76797\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

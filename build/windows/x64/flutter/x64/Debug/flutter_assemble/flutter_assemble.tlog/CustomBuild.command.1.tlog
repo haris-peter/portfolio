@@ -1,0 +1,28 @@
+^C:\USERS\HARIS\DOCUMENTS\HARIS PROFESSIONAL DOCS\PORTFOLIO\MY_FLUTTER_PORTFOLIO\BUILD\WINDOWS\X64\CMAKEFILES\1B45CAE5AF91B92CE53245ACD3AA2C39\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\flutter "PROJECT_DIR=C:\Users\haris\Documents\HARIS PROFESSIONAL DOCS\portfolio\my_flutter_portfolio" FLUTTER_ROOT=C:\flutter "FLUTTER_EPHEMERAL_DIR=C:\Users\haris\Documents\HARIS PROFESSIONAL DOCS\portfolio\my_flutter_portfolio\windows\flutter\ephemeral" "PROJECT_DIR=C:\Users\haris\Documents\HARIS PROFESSIONAL DOCS\portfolio\my_flutter_portfolio" "FLUTTER_TARGET=C:\Users\haris\Documents\HARIS PROFESSIONAL DOCS\portfolio\my_flutter_portfolio\lib\main.dart" DART_DEFINES=Zmx1dHRlci5pbnNwZWN0b3Iuc3RydWN0dXJlZEVycm9ycz10cnVl,RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ==,RkxVVFRFUl9XRUJfQ0FOVkFTS0lUX1VSTD1odHRwczovL3d3dy5nc3RhdGljLmNvbS9mbHV0dGVyLWNhbnZhc2tpdC8wNDgxN2M5OWM5ZmQ0OTU2ZjI3NTA1MjA0ZjdlMzQ0MzM1ODEwYWVkLw== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false "PACKAGE_CONFIG=C:\Users\haris\Documents\HARIS PROFESSIONAL DOCS\portfolio\my_flutter_portfolio\.dart_tool\package_config.json" C:/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\HARIS\DOCUMENTS\HARIS PROFESSIONAL DOCS\PORTFOLIO\MY_FLUTTER_PORTFOLIO\BUILD\WINDOWS\X64\CMAKEFILES\D77BCFAF4DAE66465FEFB30D7207A831\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\HARIS\DOCUMENTS\HARIS PROFESSIONAL DOCS\PORTFOLIO\MY_FLUTTER_PORTFOLIO\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/haris/Documents/HARIS PROFESSIONAL DOCS/portfolio/my_flutter_portfolio/windows" "-BC:/Users/haris/Documents/HARIS PROFESSIONAL DOCS/portfolio/my_flutter_portfolio/build/windows/x64" --check-stamp-file "C:/Users/haris/Documents/HARIS PROFESSIONAL DOCS/portfolio/my_flutter_portfolio/build/windows/x64/flutter/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

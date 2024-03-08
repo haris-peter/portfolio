@@ -1,0 +1,10 @@
+^C:\USERS\HARIS\DOCUMENTS\HARIS PROFESSIONAL DOCS\PORTFOLIO\MY_FLUTTER_PORTFOLIO\BUILD\WINDOWS\X64\CMAKEFILES\A189EB788B002B1619DF773163F76797\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/haris/Documents/HARIS PROFESSIONAL DOCS/portfolio/my_flutter_portfolio/windows" "-BC:/Users/haris/Documents/HARIS PROFESSIONAL DOCS/portfolio/my_flutter_portfolio/build/windows/x64" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/haris/Documents/HARIS PROFESSIONAL DOCS/portfolio/my_flutter_portfolio/build/windows/x64/my_flutter_portfolio.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
