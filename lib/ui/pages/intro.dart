@@ -222,7 +222,8 @@ class _IntroWidgetState extends State<IntroWidget> {
         ),
         Padding(
           padding: EdgeInsets.only(
-            top: MediaQuery.of(context).size.height * 0.20,
+            top: MediaQuery.of(context).size.width * 1.2,
+            right: MediaQuery.of(context).size.width * 0.30,
           ),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
