@@ -210,7 +210,7 @@ class _IntroWidgetState extends State<IntroWidget> {
           ),
         ),
         Positioned(
-          right: MediaQuery.of(context).size.width * 0.35,
+          right: MediaQuery.of(context).size.width * 0.25,
           top: MediaQuery.of(context).size.width * 1.2,
           child: const CircleWidget(
             width: 50,
